@@ -1,8 +1,9 @@
 :root {
   --primary-color: #03254c;
   --secondary-color: #0c53a4;
-
   --section-header-line-width: 30rem;
+  --bg-color: #000;
+  --text-color: #fff;
 }
 
 /* Global styles */
@@ -21,6 +22,8 @@ html {
 }
 
 body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
   width: 100%;
   height: 100%;
 }
@@ -91,7 +94,7 @@ img {
 }
 
 .section-heading h6 {
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 5rem auto;
   font-size: 2rem;
 }
 
@@ -427,10 +430,11 @@ img {
   border-radius: 5px;
   margin-bottom: 0.3rem;
   display: inline-block;
-  width: 90%;
+  width: 60%;
 }
 
 .skills .skill .container {
+  padding: 0 40rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -451,6 +455,7 @@ img {
   font-size: 2.5rem;
   border-bottom: 1px solid var(--primary-color);
   margin: 2rem auto;
+  text-align: center;
 }
 
 /* Footer */
